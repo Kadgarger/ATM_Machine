@@ -29,7 +29,9 @@ public class Main {
                         double depositAmount = in.nextDouble();
                         op.depositAmount(depositAmount);
                 }
-                    else if (ch == 4) {}
+                    else if (ch == 4) {
+                        op.viewMiniStatement();
+                }
                     else if (ch == 5) {
                         System.out.println("Collect you ATM card\nThank you. You have chosen, or been chosen, to use to one of our finest remaining urban ATM");
                         System.exit(0);
