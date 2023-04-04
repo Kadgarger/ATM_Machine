@@ -14,7 +14,7 @@ public class AtmOperation implements AtmOperationInteface{
 
     @Override
     public void withdrawAmount(double withdrawAmount) {
-        if (withdrawAmount < 100) {
+        if (withdrawAmount >= 100) {
             if (withdrawAmount <= atm.getBalance()) {
                 ministmt.put(withdrawAmount, " Amount withdrawn");
                 System.out.println("Collect the cash " + withdrawAmount);
@@ -24,6 +24,8 @@ public class AtmOperation implements AtmOperationInteface{
                 System.out.println("You try to take more cash than you balance. Input correct number");
             }
         }
+        else
+            System.out.println("Min withdraw 100");
     }
 
     @Override
