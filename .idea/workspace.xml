@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="824ae630-f629-45d1-a093-32f1b6f95802" name="Changes" comment="first">
+    <list default="true" id="824ae630-f629-45d1-a093-32f1b6f95802" name="Changes" comment="add scanner and its check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Main.java" afterDir="false" />
     </list>
@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680571966261</updated>
-      <workItem from="1680571967970" duration="1269000" />
+      <workItem from="1680571967970" duration="3318000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1680572339746</created>
@@ -81,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680572717813</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add scanner and its check">
+      <created>1680573496393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680573496393</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="add scanner and its check" />
+    <option name="LAST_COMMIT_MESSAGE" value="add scanner and its check" />
   </component>
 </project>
