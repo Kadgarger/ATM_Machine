@@ -27,10 +27,15 @@ public class AtmOperation implements AtmOperationInteface{
 
     @Override
     public void depositAmount(double depositAmount) {
-        ministmt.put(depositAmount, " Amount deposited");
-        System.out.println(depositAmount + " Deposit successfully");
-        atm.setBalance(atm.getBalance() + depositAmount);
-        viewBalance();
+        if (depositAmount <= 100000) {
+            ministmt.put(depositAmount, " Amount deposited");
+            System.out.println(depositAmount + " Deposit successfully");
+            atm.setBalance(atm.getBalance() + depositAmount);
+            viewBalance();
+        }
+        else {
+            System.out.println("Max deposit for one time 100000");
+        }
     }
 
     @Override
